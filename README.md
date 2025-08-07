@@ -12,11 +12,11 @@ This script automatically backs up your game save files before the game starts.
 Setup Instructions:
 -------------------
 1. Manually find your save folder path:
-   - Go to: C:\Program Files (x86)\Steam\userdata\
+   - Go to: `C:\Program Files (x86)\Steam\userdata\`
    - Open the folder named after your Steam ID (a number).
    - Then open the folder named after the game ID (e.g., 2246340 for Monster Hunter Wilds).
    - Your full save path will look like:
-       C:\Program Files (x86)\Steam\userdata\123456789\2246340\remote\win64_save
+       `C:\Program Files (x86)\Steam\userdata\123456789\2246340\remote\win64_save`
 
 2. Open "backup_savedata.bat" in a text editor and modify the following lines:
    (Lines 63, 66, and 69)
@@ -29,9 +29,9 @@ Setup Instructions:
 
 4. Open Steam and go to your game list.
 
-5. Right-click the game (e.g., Monster Hunter Wilds), then choose "Properties".
+5. Right-click the game (e.g., Monster Hunter Wilds), then choose `Properties`.
 
-6. In the "Launch Options" field, paste the following line:
+6. In the `Launch Options` field, paste the following line:
    (replace the .bat path with your actual file path)
 
 
@@ -39,7 +39,7 @@ Setup Instructions:
    
 
    - If Steam is installed in the default location, the path may look like:
-     C:\Program Files (x86)\Steam\userdata\123456789\2246340\remote\backup_savedata.bat
+     `C:\Program Files (x86)\Steam\userdata\123456789\2246340\remote\backup_savedata.bat`
 
 What this script does:
 -----------------------
