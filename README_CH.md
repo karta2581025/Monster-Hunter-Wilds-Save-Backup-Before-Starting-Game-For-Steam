@@ -24,7 +24,7 @@
        set "backupDir=..."   （備份 zip 檔案儲存的位置）
        set "logFile=..."     （選填，記錄備份日誌的路徑）
 
-3. 開啟 Steam 並找到你的遊戲清單。
+3. 開啟 Steam 並找到你的收藏庫。
 
 4. 右鍵點擊遊戲（例如 Monster Hunter Wilds），然後選擇「內容」。
 
