@@ -2,6 +2,13 @@
 
 このスクリプトは、ゲームを起動する前に『モンスターハンター：ワイルズ』のセーブデータを自動でバックアップします。
 
+## 🌐 Available Languages
+
+- [English (EN)](README.md)
+- [中文 (Chinese)](README_CH.md)
+- [日本語 (Japanese)](README_JP.md)
+
+
 ## 設定手順：
 -------------------
 
