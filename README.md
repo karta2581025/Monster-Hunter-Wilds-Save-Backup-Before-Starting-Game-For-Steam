@@ -27,6 +27,7 @@ Setup Instructions:
    
        set "logFile=..."     (optional path to save the log file)
 
+
 4. Open Steam and go to your game list.
 
 5. Right-click the game (e.g., Monster Hunter Wilds), then choose "Properties".
@@ -34,7 +35,9 @@ Setup Instructions:
 6. In the "Launch Options" field, paste the following line:
    (replace the .bat path with your actual file path)
 
-powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& {Start-Process 'C:\your\path\to\backup_savedata.bat' -Wait}"; %command%
+
+      powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& {Start-Process 'C:\your\path\to\backup_savedata.bat' -Wait}"; %command%
+   
 
    - If Steam is installed in the default location, the path may look like:
      C:\Program Files (x86)\Steam\userdata\123456789\2246340\remote\backup_savedata.bat
