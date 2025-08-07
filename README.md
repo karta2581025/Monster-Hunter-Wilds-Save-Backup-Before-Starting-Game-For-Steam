@@ -20,12 +20,11 @@ Setup Instructions:
 
 2. Open "backup_savedata.bat" in a text editor and modify the following lines:
    (Lines 63, 66, and 69)
+      set "sourceDir=..."   (your save folder)
    
-       set "sourceDir=..."   (your save folder)
+      set "backupDir=..."   (where the backup .zip will be saved)
    
-       set "backupDir=..."   (where the backup .zip will be saved)
-   
-       set "logFile=..."     (optional path to save the log file)
+      set "logFile=..."     (optional path to save the log file)
 
 
 4. Open Steam and go to your game list.
@@ -36,7 +35,7 @@ Setup Instructions:
    (replace the .bat path with your actual file path)
 
 
-      powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& {Start-Process 'C:\your\path\to\backup_savedata.bat' -Wait}"; %command%
+         powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& {Start-Process 'C:\your\path\to\backup_savedata.bat' -Wait}"; %command%
    
 
    - If Steam is installed in the default location, the path may look like:
