@@ -12,15 +12,18 @@ Setup Instructions:
 
 2. Open "backup_savedata.bat" in a text editor and modify the following lines:
    (Lines 63, 66, and 69)
+   
        set "sourceDir=..."   (your save folder)
+   
        set "backupDir=..."   (where the backup .zip will be saved)
+   
        set "logFile=..."     (optional path to save the log file)
 
-3. Open Steam and go to your game list.
+4. Open Steam and go to your game list.
 
-4. Right-click the game (e.g., Monster Hunter Wilds), then choose "Properties".
+5. Right-click the game (e.g., Monster Hunter Wilds), then choose "Properties".
 
-5. In the "Launch Options" field, paste the following line:
+6. In the "Launch Options" field, paste the following line:
    (replace the .bat path with your actual file path)
 
 powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& {Start-Process 'C:\your\path\to\backup_savedata.bat' -Wait}"; %command%
