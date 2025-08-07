@@ -31,7 +31,7 @@
 5. 在「啟動選項」欄位中貼上以下指令：
    > ※請將 .bat 路徑替換成你實際的檔案路徑。
 
-   powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& {Start-Process 'C:\your\path\to\backup_savedata.bat' -Wait}"; %command%
+         powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& {Start-Process 'C:\your\path\to\backup_savedata.bat' -Wait}"; %command%
 
    - 如果你的 Steam 安裝在預設路徑，範例可能如下：
      C:\Program Files (x86)\Steam\userdata\123456789\2246340\remote\backup_savedata.bat
