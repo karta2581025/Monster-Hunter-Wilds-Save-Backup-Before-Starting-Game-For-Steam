@@ -60,10 +60,10 @@ setlocal EnableDelayedExpansion
 
 :: === Configuration ===
 :: The folder where your game saves are (the stuff you want to back up) ex: C:\Program Files (x86)\Steam\userdata\123456789\2246340\remote\win64_save
-set "sourceDir=E:\Game\Steam\userdata\356590741\2246340\remote\win64_save"
+set "sourceDir=C:\Program Files (x86)\Steam\userdata\123456789\2246340\remote\win64_save"
 
 :: The folder where the backup zip file will go (where you store the copy) ex: C:\Program Files (x86)\Steam\userdata\123456789\2246340\remote\
-set "backupDir=E:\Game\Steam\userdata\356590741\2246340\remote"
+set "backupDir=C:\Program Files (x86)\Steam\userdata\123456789\2246340\remote\"
 
 :: A text file that keeps track of backup results (success or error)
 set "logFile=%backupDir%\backup_log.txt"
@@ -104,3 +104,4 @@ endlocal
 exit
 
 :: ===========================================================================================================
+
