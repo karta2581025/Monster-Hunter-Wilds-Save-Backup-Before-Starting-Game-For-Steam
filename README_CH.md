@@ -2,6 +2,13 @@
 
 此腳本會在你啟動遊戲前，自動備份《Monster Hunter Wilds》的遊戲存檔。
 
+## 🌐 Available Languages
+
+- [English (EN)](README.md)
+- [中文 (Chinese)](README_CH.md)
+- [日本語 (Japanese)](README_JP.md)
+
+
 ## 設定說明：
 -------------------
 
