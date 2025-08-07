@@ -1,6 +1,14 @@
 # Monster-Hunter-Wilds-Save-Backup-Before-Starting-Game-For-Steam
 This script automatically backs up your game save files before the game starts.
 
+## 🌐 Available Languages
+
+- [English (EN)](README.md)
+- [中文 (Chinese)](README_CH.md)
+- [日本語 (Japanese)](README_JP.md)
+
+
+
 Setup Instructions:
 -------------------
 1. Manually find your save folder path:
